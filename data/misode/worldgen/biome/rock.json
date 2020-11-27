@@ -1,0 +1,55 @@
+{
+  "surface_builder": "minecraft:gravelly_mountain",
+  "depth": 0.4,
+  "scale": 0.2,
+  "temperature": 0.2,
+  "downfall": 0,
+  "precipitation": "rain",
+  "category": "plains",
+  "effects": {
+    "sky_color": 13811075,
+    "fog_color": 14996404,
+    "water_color": 7575001,
+    "water_fog_color": 1710652
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {
+    "minecraft:blaze": {
+      "energy_budget": 0.05,
+      "charge": 1
+    }
+  },
+  "carvers": {},
+  "features": [
+    [
+      "misode:river/carver/0",
+      "misode:river/carver/1",
+      "misode:river/carver/2",
+      "misode:river/carver/3",
+      "misode:river/carver/4",
+      "misode:river/carver/5",
+      "misode:river/carver/6",
+      "misode:river/carver/7",
+      "misode:river/carver/8",
+      "misode:river/carver/9"
+    ],
+    [
+      "misode:river/water/0",
+      "misode:river/water/1",
+      "misode:river/water/2",
+      "misode:river/surface/grass",
+      "misode:river/decoration/pickles",
+      "misode:river/decoration/seagrass"
+    ],
+    [
+      "misode:andesite_blobs",
+      "misode:tuff_blobs",
+      "misode:coarse_dirt_blobs",
+      "misode:smooth_quartz_blobs"
+    ],
+    [
+      "minecraft:patch_grass_normal"
+    ]
+  ]
+}

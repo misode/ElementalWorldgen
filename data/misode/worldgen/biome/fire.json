@@ -1,0 +1,69 @@
+{
+  "surface_builder": "minecraft:basalt_deltas",
+  "depth": 0.2,
+  "scale": 0.01,
+  "temperature": 1,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "mesa",
+  "effects": {
+    "sky_color": 10368297,
+    "fog_color": 11554629,
+    "water_color": 8914695,
+    "water_fog_color": 4653056,
+    "particle": {
+      "options": {
+        "type": "smoke"
+      },
+      "probability": 0.01
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:blaze": {
+      "energy_budget": 0.05,
+      "charge": 1
+    }
+  },
+  "carvers": {},
+  "features": [
+    [
+      "misode:river/carver/0",
+      "misode:river/carver/1",
+      "misode:river/carver/2",
+      "misode:river/carver/3",
+      "misode:river/carver/4",
+      "misode:river/carver/5",
+      "misode:river/carver/6",
+      "misode:river/carver/7",
+      "misode:river/carver/8",
+      "misode:river/carver/9"
+    ],
+    [
+      "misode:river/water/0",
+      "misode:river/water/1",
+      "misode:river/water/2",
+      "misode:river/surface/fire",
+      "misode:river/decoration/seagrass"
+    ],
+    [
+      "misode:andesite_blobs",
+      "misode:tuff_blobs",
+      "misode:smooth_quartz_blobs"
+    ],
+    [
+      "misode:magma_patch",
+      "misode:fire_patch"
+    ]
+  ]
+}
