@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count_extra",
       "config": {
-        "count": 150,
+        "count": 50,
         "extra_count": 0,
         "extra_chance": 0
       }
@@ -45,7 +45,7 @@
                       "type": "minecraft:range",
                       "config": {
                         "maximum": 3,
-                        "bottom_offset": 60,
+                        "bottom_offset": 63,
                         "top_offset": 0
                       }
                     },
@@ -53,11 +53,40 @@
                       "type": "minecraft:simple_block",
                       "config": {
                         "to_place": {
-                          "Name": "minecraft:seagrass"
+                          "Name": "minecraft:amethyst_cluster",
+                          "Properties": {
+                            "facing": "up",
+                            "lit": "true",
+                            "waterlogged": "false"
+                          }
                         },
                         "place_on": [
                           {
+                            "Name": "minecraft:white_concrete_powder"
+                          },
+                          {
+                            "Name": "minecraft:calcite"
+                          },
+                          {
                             "Name": "minecraft:stone"
+                          },
+                          {
+                            "Name": "minecraft:ice"
+                          },
+                          {
+                            "Name": "minecraft:packed_ice"
+                          },
+                          {
+                            "Name": "minecraft:blue_ice"
+                          },
+                          {
+                            "Name": "minecraft:tuff"
+                          },
+                          {
+                            "Name": "minecraft:blackstone"
+                          },
+                          {
+                            "Name": "minecraft:gravel"
                           },
                           {
                             "Name": "minecraft:dirt"
@@ -66,10 +95,16 @@
                             "Name": "minecraft:coarse_dirt"
                           },
                           {
+                            "Name": "minecraft:grass_block",
+                            "Properties": {
+                              "snowy": "false"
+                            }
+                          },
+                          {
                             "Name": "minecraft:andesite"
                           },
                           {
-                            "Name": "minecraft:blackstone"
+                            "Name": "minecraft:mossy_cobblestone"
                           },
                           {
                             "Name": "minecraft:basalt",
@@ -78,35 +113,20 @@
                             }
                           },
                           {
-                            "Name": "minecraft:white_concrete_powder"
+                            "Name": "minecraft:magma_block"
                           },
                           {
-                            "Name": "minecraft:calcite"
-                          },
-                          {
-                            "Name": "minecraft:tuff"
+                            "Name": "minecraft:obsidian"
                           }
                         ],
                         "place_in": [
                           {
-                            "Name": "minecraft:water",
-                            "Properties": {
-                              "level": "0"
-                            }
+                            "Name": "minecraft:air"
                           }
                         ],
                         "place_under": [
                           {
                             "Name": "minecraft:air"
-                          },
-                          {
-                            "Name": "minecraft:cave_air"
-                          },
-                          {
-                            "Name": "minecraft:water",
-                            "Properties": {
-                              "level": "0"
-                            }
                           }
                         ]
                       }

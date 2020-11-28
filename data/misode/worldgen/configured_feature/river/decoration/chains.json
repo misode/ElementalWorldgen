@@ -1,0 +1,349 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 8,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 180,
+                "noise_offset": 0.12
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 180,
+                    "noise_offset": -0.12
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_extra",
+                      "config": {
+                        "count": 500,
+                        "extra_count": 0,
+                        "extra_chance": 0
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:random_selector",
+                      "config": {
+                        "features": [
+                          {
+                            "chance": 0.2,
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:range",
+                                  "config": {
+                                    "maximum": 2,
+                                    "bottom_offset": 61,
+                                    "top_offset": 0
+                                  }
+                                },
+                                "feature": {
+                                  "type": "minecraft:simple_block",
+                                  "config": {
+                                    "to_place": {
+                                      "Name": "minecraft:chain",
+                                      "Properties": {
+                                        "axis": "y",
+                                        "waterlogged": "true"
+                                      }
+                                    },
+                                    "place_on": [
+                                      {
+                                        "Name": "minecraft:white_concrete_powder"
+                                      },
+                                      {
+                                        "Name": "minecraft:calcite"
+                                      },
+                                      {
+                                        "Name": "minecraft:stone"
+                                      },
+                                      {
+                                        "Name": "minecraft:ice"
+                                      },
+                                      {
+                                        "Name": "minecraft:packed_ice"
+                                      },
+                                      {
+                                        "Name": "minecraft:blue_ice"
+                                      },
+                                      {
+                                        "Name": "minecraft:tuff"
+                                      },
+                                      {
+                                        "Name": "minecraft:blackstone"
+                                      },
+                                      {
+                                        "Name": "minecraft:gravel"
+                                      },
+                                      {
+                                        "Name": "minecraft:dirt"
+                                      },
+                                      {
+                                        "Name": "minecraft:coarse_dirt"
+                                      },
+                                      {
+                                        "Name": "minecraft:grass_block",
+                                        "Properties": {
+                                          "snowy": "false"
+                                        }
+                                      },
+                                      {
+                                        "Name": "minecraft:andesite"
+                                      },
+                                      {
+                                        "Name": "minecraft:mossy_cobblestone"
+                                      },
+                                      {
+                                        "Name": "minecraft:basalt",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      },
+                                      {
+                                        "Name": "minecraft:magma_block"
+                                      },
+                                      {
+                                        "Name": "minecraft:obsidian"
+                                      },
+                                      {
+                                        "Name": "minecraft:water",
+                                        "Properties": {
+                                          "level": "0"
+                                        }
+                                      }
+                                    ],
+                                    "place_in": [
+                                      {
+                                        "Name": "minecraft:water",
+                                        "Properties": {
+                                          "level": "0"
+                                        }
+                                      }
+                                    ],
+                                    "place_under": [
+                                      {
+                                        "Name": "minecraft:chain",
+                                        "Properties": {
+                                          "axis": "y",
+                                          "waterlogged": "false"
+                                        }
+                                      },
+                                      {
+                                        "Name": "minecraft:chain",
+                                        "Properties": {
+                                          "axis": "y",
+                                          "waterlogged": "true"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "default": {
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:range",
+                              "config": {
+                                "maximum": 6,
+                                "bottom_offset": 63,
+                                "top_offset": 0
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:simple_block",
+                              "config": {
+                                "to_place": {
+                                  "Name": "minecraft:chain",
+                                  "Properties": {
+                                    "axis": "y",
+                                    "waterlogged": "false"
+                                  }
+                                },
+                                "place_on": [
+                                  {
+                                    "Name": "minecraft:air"
+                                  },
+                                  {
+                                    "Name": "minecraft:white_concrete_powder"
+                                  },
+                                  {
+                                    "Name": "minecraft:calcite"
+                                  },
+                                  {
+                                    "Name": "minecraft:stone"
+                                  },
+                                  {
+                                    "Name": "minecraft:ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:packed_ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:blue_ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:tuff"
+                                  },
+                                  {
+                                    "Name": "minecraft:blackstone"
+                                  },
+                                  {
+                                    "Name": "minecraft:gravel"
+                                  },
+                                  {
+                                    "Name": "minecraft:dirt"
+                                  },
+                                  {
+                                    "Name": "minecraft:coarse_dirt"
+                                  },
+                                  {
+                                    "Name": "minecraft:grass_block",
+                                    "Properties": {
+                                      "snowy": "false"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:andesite"
+                                  },
+                                  {
+                                    "Name": "minecraft:mossy_cobblestone"
+                                  },
+                                  {
+                                    "Name": "minecraft:basalt",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:magma_block"
+                                  },
+                                  {
+                                    "Name": "minecraft:obsidian"
+                                  },
+                                  {
+                                    "Name": "minecraft:water",
+                                    "Properties": {
+                                      "level": "0"
+                                    }
+                                  }
+                                ],
+                                "place_in": [
+                                  {
+                                    "Name": "minecraft:air"
+                                  }
+                                ],
+                                "place_under": [
+                                  {
+                                    "Name": "minecraft:chain",
+                                    "Properties": {
+                                      "axis": "y",
+                                      "waterlogged": "false"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:white_concrete_powder"
+                                  },
+                                  {
+                                    "Name": "minecraft:calcite"
+                                  },
+                                  {
+                                    "Name": "minecraft:stone"
+                                  },
+                                  {
+                                    "Name": "minecraft:ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:packed_ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:blue_ice"
+                                  },
+                                  {
+                                    "Name": "minecraft:tuff"
+                                  },
+                                  {
+                                    "Name": "minecraft:blackstone"
+                                  },
+                                  {
+                                    "Name": "minecraft:gravel"
+                                  },
+                                  {
+                                    "Name": "minecraft:dirt"
+                                  },
+                                  {
+                                    "Name": "minecraft:coarse_dirt"
+                                  },
+                                  {
+                                    "Name": "minecraft:grass_block",
+                                    "Properties": {
+                                      "snowy": "false"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:andesite"
+                                  },
+                                  {
+                                    "Name": "minecraft:mossy_cobblestone"
+                                  },
+                                  {
+                                    "Name": "minecraft:basalt",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:magma_block"
+                                  },
+                                  {
+                                    "Name": "minecraft:obsidian"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

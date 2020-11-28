@@ -40,7 +40,10 @@
       "misode:river/water/0",
       "misode:river/water/1",
       "misode:river/water/2",
-      "misode:river/surface/grass",
+      "misode:river/surface/grass"
+    ],
+    [
+      "misode:river/decoration/chains",
       "misode:river/decoration/pickles",
       "misode:river/decoration/seagrass"
     ],

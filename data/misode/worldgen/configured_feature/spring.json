@@ -21,7 +21,7 @@
               "type": "minecraft:range_biased",
               "config": {
                 "maximum": 20,
-                "bottom_offset": 60,
+                "bottom_offset": 65,
                 "top_offset": 0
               }
             },

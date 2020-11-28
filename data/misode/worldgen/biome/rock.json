@@ -7,10 +7,10 @@
   "precipitation": "rain",
   "category": "plains",
   "effects": {
-    "sky_color": 13811075,
-    "fog_color": 14996404,
-    "water_color": 7575001,
-    "water_fog_color": 1710652
+    "sky_color": 10716114,
+    "fog_color": 13085151,
+    "water_color": 8611032,
+    "water_fog_color": 3086909
   },
   "starts": [],
   "spawners": {},
@@ -38,9 +38,14 @@
       "misode:river/water/0",
       "misode:river/water/1",
       "misode:river/water/2",
-      "misode:river/surface/grass",
+      "misode:river/surface/grass"
+    ],
+    [
+      "misode:river/decoration/chains",
       "misode:river/decoration/pickles",
-      "misode:river/decoration/seagrass"
+      "misode:river/decoration/seagrass",
+      "misode:river/decoration/amethyst_top",
+      "misode:river/decoration/amethyst_bottom"
     ],
     [
       "misode:andesite_blobs",

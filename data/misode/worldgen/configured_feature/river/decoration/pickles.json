@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count_extra",
       "config": {
-        "count": 60,
+        "count": 10,
         "extra_count": 0,
         "extra_chance": 0
       }
@@ -24,7 +24,7 @@
               "config": {
                 "noise_to_count_ratio": 1,
                 "noise_factor": 180,
-                "noise_offset": 0.2
+                "noise_offset": 0.12
               }
             },
             "feature": {
@@ -35,7 +35,7 @@
                   "config": {
                     "noise_to_count_ratio": -1,
                     "noise_factor": 180,
-                    "noise_offset": -0.2
+                    "noise_offset": -0.12
                   }
                 },
                 "feature": {

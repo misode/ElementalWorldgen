@@ -53,7 +53,10 @@
       "misode:river/water/0",
       "misode:river/water/1",
       "misode:river/water/2",
-      "misode:river/surface/fire",
+      "misode:river/surface/fire"
+    ],
+    [
+      "misode:river/decoration/chains",
       "misode:river/decoration/seagrass"
     ],
     [

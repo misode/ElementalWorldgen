@@ -38,7 +38,9 @@
       "misode:river/water/0",
       "misode:river/water/1",
       "misode:river/water/2",
-      "misode:river/surface/air",
+      "misode:river/surface/air"
+    ],
+    [
       "misode:river/decoration/seagrass"
     ],
     [
