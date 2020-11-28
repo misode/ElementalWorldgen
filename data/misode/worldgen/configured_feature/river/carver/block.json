@@ -99,6 +99,18 @@
       },
       {
         "Name": "minecraft:obsidian"
+      },
+      {
+        "Name": "minecraft:mycelium",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:light_gray_concrete_powder"
+      },
+      {
+        "Name": "minecraft:clay"
       }
     ],
     "place_in": [
@@ -193,6 +205,18 @@
       },
       {
         "Name": "minecraft:obsidian"
+      },
+      {
+        "Name": "minecraft:mycelium",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:light_gray_concrete_powder"
+      },
+      {
+        "Name": "minecraft:clay"
       }
     ],
     "place_under": [
@@ -290,6 +314,18 @@
       },
       {
         "Name": "minecraft:obsidian"
+      },
+      {
+        "Name": "minecraft:mycelium",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:light_gray_concrete_powder"
+      },
+      {
+        "Name": "minecraft:clay"
       }
     ]
   }

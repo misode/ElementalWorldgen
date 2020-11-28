@@ -45,16 +45,22 @@
       "misode:river/decoration/pickles",
       "misode:river/decoration/seagrass",
       "misode:river/decoration/amethyst_top",
-      "misode:river/decoration/amethyst_bottom"
+      "misode:river/decoration/amethyst_bottom",
+      "misode:river/decoration/dead_coral",
+      "misode:river/decoration/dead_coral_water"
     ],
     [
       "misode:andesite_blobs",
+      "misode:mycelium_blobs",
       "misode:tuff_blobs",
       "misode:coarse_dirt_blobs",
+      "misode:light_gray_concrete_blobs",
+      "misode:clay_blobs",
       "misode:smooth_quartz_blobs"
     ],
     [
-      "minecraft:patch_grass_normal"
+      "misode:dead_coral_patch",
+      "misode:purple_mushrooms"
     ]
   ]
 }

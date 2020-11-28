@@ -2,9 +2,11 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:count",
+      "type": "minecraft:count_extra",
       "config": {
-        "count": 10
+        "count": 10,
+        "extra_count": 0,
+        "extra_chance": 0
       }
     },
     "feature": {
@@ -31,14 +33,14 @@
           "type": "minecraft:netherrack_replace_blobs",
           "config": {
             "state": {
-              "Name": "minecraft:coarse_dirt"
+              "Name": "minecraft:light_gray_concrete_powder"
             },
             "target": {
-              "Name": "minecraft:stone"
+              "Name": "minecraft:gravel"
             },
             "radius": {
-              "base": 2,
-              "spread": 1
+              "base": 3,
+              "spread": 2
             }
           }
         }

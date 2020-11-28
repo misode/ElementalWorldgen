@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count_extra",
       "config": {
-        "count": 50,
+        "count": 15,
         "extra_count": 0,
         "extra_chance": 0
       }
@@ -45,48 +45,35 @@
                       "type": "minecraft:range",
                       "config": {
                         "maximum": 3,
-                        "bottom_offset": 63,
+                        "bottom_offset": 60,
                         "top_offset": 0
                       }
                     },
                     "feature": {
-                      "type": "minecraft:simple_block",
+                      "type": "minecraft:random_patch",
                       "config": {
-                        "to_place": {
-                          "Name": "minecraft:amethyst_cluster",
-                          "Properties": {
-                            "facing": "up",
-                            "lit": "true",
-                            "waterlogged": "false"
+                        "can_replace": true,
+                        "project": false,
+                        "need_water": false,
+                        "xspread": 7,
+                        "yspread": 3,
+                        "zspread": 7,
+                        "tries": 10,
+                        "state_provider": {
+                          "type": "minecraft:simple_state_provider",
+                          "state": {
+                            "Name": "minecraft:dead_fire_coral",
+                            "Properties": {
+                              "waterlogged": "true"
+                            }
                           }
                         },
-                        "place_on": [
-                          {
-                            "Name": "minecraft:white_concrete_powder"
-                          },
-                          {
-                            "Name": "minecraft:calcite"
-                          },
+                        "block_placer": {
+                          "type": "minecraft:simple_block_placer"
+                        },
+                        "whitelist": [
                           {
                             "Name": "minecraft:stone"
-                          },
-                          {
-                            "Name": "minecraft:ice"
-                          },
-                          {
-                            "Name": "minecraft:packed_ice"
-                          },
-                          {
-                            "Name": "minecraft:blue_ice"
-                          },
-                          {
-                            "Name": "minecraft:tuff"
-                          },
-                          {
-                            "Name": "minecraft:blackstone"
-                          },
-                          {
-                            "Name": "minecraft:gravel"
                           },
                           {
                             "Name": "minecraft:dirt"
@@ -95,16 +82,10 @@
                             "Name": "minecraft:coarse_dirt"
                           },
                           {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "false"
-                            }
-                          },
-                          {
                             "Name": "minecraft:andesite"
                           },
                           {
-                            "Name": "minecraft:mossy_cobblestone"
+                            "Name": "minecraft:blackstone"
                           },
                           {
                             "Name": "minecraft:basalt",
@@ -113,10 +94,13 @@
                             }
                           },
                           {
-                            "Name": "minecraft:magma_block"
+                            "Name": "minecraft:white_concrete_powder"
                           },
                           {
-                            "Name": "minecraft:obsidian"
+                            "Name": "minecraft:calcite"
+                          },
+                          {
+                            "Name": "minecraft:tuff"
                           },
                           {
                             "Name": "minecraft:mycelium",
@@ -131,16 +115,7 @@
                             "Name": "minecraft:clay"
                           }
                         ],
-                        "place_in": [
-                          {
-                            "Name": "minecraft:air"
-                          }
-                        ],
-                        "place_under": [
-                          {
-                            "Name": "minecraft:air"
-                          }
-                        ]
+                        "blacklist": []
                       }
                     }
                   }

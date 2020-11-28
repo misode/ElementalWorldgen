@@ -135,6 +135,18 @@
                                         "Name": "minecraft:obsidian"
                                       },
                                       {
+                                        "Name": "minecraft:mycelium",
+                                        "Properties": {
+                                          "snowy": "false"
+                                        }
+                                      },
+                                      {
+                                        "Name": "minecraft:light_gray_concrete_powder"
+                                      },
+                                      {
+                                        "Name": "minecraft:clay"
+                                      },
+                                      {
                                         "Name": "minecraft:water",
                                         "Properties": {
                                           "level": "0"
@@ -252,6 +264,18 @@
                                   },
                                   {
                                     "Name": "minecraft:obsidian"
+                                  },
+                                  {
+                                    "Name": "minecraft:mycelium",
+                                    "Properties": {
+                                      "snowy": "false"
+                                    }
+                                  },
+                                  {
+                                    "Name": "minecraft:light_gray_concrete_powder"
+                                  },
+                                  {
+                                    "Name": "minecraft:clay"
                                   },
                                   {
                                     "Name": "minecraft:water",

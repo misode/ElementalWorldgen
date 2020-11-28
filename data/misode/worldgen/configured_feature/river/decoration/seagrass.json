@@ -85,6 +85,18 @@
                           },
                           {
                             "Name": "minecraft:tuff"
+                          },
+                          {
+                            "Name": "minecraft:mycelium",
+                            "Properties": {
+                              "snowy": "false"
+                            }
+                          },
+                          {
+                            "Name": "minecraft:light_gray_concrete_powder"
+                          },
+                          {
+                            "Name": "minecraft:clay"
                           }
                         ],
                         "place_in": [
