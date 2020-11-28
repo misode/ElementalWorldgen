@@ -14,12 +14,7 @@
   },
   "starts": [],
   "spawners": {},
-  "spawn_costs": {
-    "minecraft:blaze": {
-      "energy_budget": 0.05,
-      "charge": 1
-    }
-  },
+  "spawn_costs": {},
   "carvers": {},
   "features": [
     [
